@@ -11,6 +11,7 @@ This repository is about the bike-sharing rebalancing project.
 - `data/raw/citibike_sample/`: small CitiBike CSV sample that can run the pipeline quickly.
 - `docs/`: running guide, code analysis, literature, figures, and project materials.
 - `outputs/`: historical result files kept for comparison.
+- `reference_programs/`: two highly similar open-source projects kept as reference implementations.
 
 ## Quick Start
 
@@ -35,3 +36,12 @@ The integrated pipeline does the following:
 6. Writes ALNS-compatible Excel files containing `N`, `T`, `R*`, `K`, and `o` sheets.
 
 See `docs/CODE_ANALYSIS.md` for a more detailed explanation.
+
+## Reference Programs
+
+Two open-source projects are included under `reference_programs/` and can be directly studied when improving this project:
+
+- `melaniezheng/citibike_rebalancing`: very close to the demand prediction to dispatch-suggestion part of this project. It can be used as a reference for CitiBike data processing, Random Forest demand prediction, station depletion/status prediction, and generating station-to-station rebalancing pairs.
+- `joeycyhuang/bss-inventory-rebalancing`: very close to the inventory rebalancing plus routing side. It can be used as a reference for organizing routing, service-level evaluation, and inventory rebalancing modules.
+
+See `reference_programs/README.md` for the detailed reference notes.

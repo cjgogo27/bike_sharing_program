@@ -20,6 +20,13 @@ data/raw/citibike/
 data/raw/**/*.csv
 !data/raw/citibike_sample/202502-citibike-tripdata_3.csv
 
+# Keep cloned reference programs complete, including their data/results.
+!reference_programs/
+!reference_programs/**
+reference_programs/**/.git/
+reference_programs/**/__pycache__/
+reference_programs/**/.DS_Store
+
 # Local editor/system files
 .vscode/
 .DS_Store

@@ -9,3 +9,5 @@
 *.docx binary
 *.pptx binary
 *.zip binary
+*.pkl binary
+*.npy binary

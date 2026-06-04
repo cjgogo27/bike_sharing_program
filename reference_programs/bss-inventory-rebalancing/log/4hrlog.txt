@@ -1,0 +1,47 @@
+Cutting planes:
+  Gomory: 9
+  Lift-and-project: 3
+  Cover: 1
+  MIR: 157
+  StrongCG: 7
+  Flow cover: 118
+  GUB cover: 9
+  Zero half: 62
+
+Explored 22212 nodes (8111018 simplex iterations) in 14400.08 seconds (12929.83 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 10: 28055.9 28064.4 28064.7 ... 29063.2
+
+Time limit reached
+Best objective 2.805589213420e+04, best bound 2.566138781112e+04, gap 8.5348%
+vehicle_num : 0 time_interval : 0 station : 17 pick_up : 1.0
+vehicle_num : 0 time_interval : 0 station : 27 drop_off : 1.0
+vehicle_num : 1 time_interval : 0 station : 38 pick_up : 6.0
+vehicle_num : 1 time_interval : 0 station : 47 drop_off : 2.0
+vehicle_num : 1 time_interval : 1 station : 30 drop_off : 2.0
+vehicle_num : 0 time_interval : 2 station : 19 pick_up : 8.0
+vehicle_num : 0 time_interval : 3 station : 0 drop_off : 4.0
+vehicle_num : 0 time_interval : 3 station : 1 pick_up : 2.0
+vehicle_num : 1 time_interval : 3 station : 32 pick_up : 6.0
+vehicle_num : 1 time_interval : 3 station : 45 drop_off : 2.0
+vehicle_num : 0 time_interval : 4 station : 28 drop_off : 2.0
+vehicle_num : 1 time_interval : 4 station : 42 drop_off : 5.0
+vehicle_num : 0 time_interval : 5 station : 22 drop_off : 4.0
+vehicle_num : 1 time_interval : 5 station : 44 drop_off : 1.0
+vehicle_num : 0 time_interval : 7 station : 8 pick_up : 10.0
+vehicle_num : 0 time_interval : 7 station : 25 drop_off : 7.0
+vehicle_num : 0 time_interval : 0 arc i17 to j27
+vehicle_num : 1 time_interval : 0 arc i38 to j47
+vehicle_num : 0 time_interval : 1 arc i27 to j19
+vehicle_num : 1 time_interval : 1 arc i47 to j30
+vehicle_num : 0 time_interval : 2 arc i19 to j1
+vehicle_num : 1 time_interval : 2 arc i30 to j32
+vehicle_num : 0 time_interval : 3 arc i1 to j0
+vehicle_num : 1 time_interval : 3 arc i32 to j45
+vehicle_num : 0 time_interval : 4 arc i0 to j28
+vehicle_num : 1 time_interval : 4 arc i45 to j42
+vehicle_num : 0 time_interval : 5 arc i28 to j22
+vehicle_num : 1 time_interval : 5 arc i42 to j44
+vehicle_num : 0 time_interval : 6 arc i22 to j8
+vehicle_num : 0 time_interval : 7 arc i8 to j25

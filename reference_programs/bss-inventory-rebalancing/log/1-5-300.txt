@@ -1,0 +1,278 @@
+start info:
+=================================
+start date : 1         
+end date : 5
+start time : 06:00:00
+end time : 09:00:00
+target area : 鹽埕區,前金區         
+truck number : 2
+capacity : 14
+max time : 300 sec
+
+start gurobi mip routing optimization.......
+=================================
+
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-05-03
+Set parameter TimeLimit to value 300
+Set parameter NodeLimit to value 1073741824
+Set parameter SolutionLimit to value 1073741824
+Set parameter IntFeasTol to value 1e-06
+Set parameter Method to value 3
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 12247 rows, 227772 columns and 1204956 nonzeros
+Model fingerprint: 0x7cf28fa4
+Variable types: 0 continuous, 227772 integer (219780 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [6e+01, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve added 7764 rows and 3890 columns
+Presolve time: 3.63s
+Presolved: 20011 rows, 231662 columns, 753396 nonzeros
+Variable types: 0 continuous, 231662 integer (216234 binary)
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.19s
+
+Barrier statistics:
+ AA' NZ     : 3.968e+05
+ Factor NZ  : 1.414e+06 (roughly 110 MB of memory)
+ Factor Ops : 2.097e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.33446506e+10 -3.52502057e+09  7.62e+04 1.45e+03  2.44e+05     7s
+   1   5.22093176e+09 -2.06406533e+09  2.94e+04 1.27e-11  9.32e+04     7s
+   2   1.41969906e+09 -1.27385002e+09  7.64e+03 1.13e-11  2.51e+04     8s
+   3   3.52854363e+08 -8.26245468e+08  1.67e+03 2.43e-11  6.26e+03     8s
+   4   1.43935312e+08 -3.80106587e+08  5.56e+02 7.09e-11  1.96e+03     8s
+   5   6.12702733e+07 -8.43048741e+07  2.08e+02 9.32e-11  5.49e+02     8s
+   6   5.37166861e+06 -1.13090898e+07  1.91e+01 1.54e-10  5.70e+01     8s
+   7   4.27554118e+05 -4.34979864e+06  5.21e-01 1.24e-10  1.06e+01     9s
+   8   3.66362324e+05 -3.70938715e+06  3.24e-01 1.83e-10  8.91e+00     9s
+   9   3.49777747e+05 -3.53735274e+06  2.83e-01 2.03e-10  8.46e+00     9s
+  10   3.07630082e+05 -2.68455567e+06  2.22e-01 1.62e-10  6.49e+00     9s
+  11   2.37663195e+05 -1.93909738e+06  1.40e-01 1.82e-10  4.68e+00     9s
+  12   2.13891741e+05 -1.43953904e+06  1.18e-01 1.46e-10  3.54e+00    10s
+  13   1.67685795e+05 -9.01574215e+05  7.70e-02 1.18e-10  2.28e+00    10s
+  14   9.43189103e+04 -3.52114305e+05  2.15e-02 6.37e-11  9.41e-01    10s
+  15   6.29235958e+04 -1.05446195e+05  7.99e-03 2.77e-11  3.54e-01    10s
+  16   5.54902673e+04 -1.76738809e+04  5.58e-03 1.49e-11  1.54e-01    10s
+  17   5.20372883e+04 -6.77760763e+03  4.58e-03 1.24e-11  1.24e-01    11s
+  18   4.59451975e+04  5.05076556e+03  2.89e-03 8.46e-12  8.60e-02    11s
+  19   4.33422754e+04  6.78956479e+03  2.24e-03 7.94e-12  7.69e-02    11s
+  20   4.23155249e+04  1.26240856e+04  1.97e-03 6.01e-12  6.24e-02    11s
+  21   3.99188340e+04  1.94818776e+04  1.40e-03 3.94e-12  4.30e-02    11s
+  22   3.79204182e+04  2.44104987e+04  9.58e-04 3.64e-12  2.84e-02    11s
+  23   3.68266775e+04  2.66538641e+04  7.04e-04 3.64e-12  2.14e-02    12s
+  24   3.60784660e+04  2.80668957e+04  5.35e-04 3.64e-12  1.68e-02    12s
+  25   3.54995716e+04  3.04567422e+04  3.99e-04 3.64e-12  1.06e-02    12s
+  26   3.47160438e+04  3.17970856e+04  2.13e-04 3.64e-12  6.13e-03    12s
+  27   3.43687892e+04  3.24653844e+04  1.37e-04 3.64e-12  4.00e-03    13s
+  28   3.42947625e+04  3.26781570e+04  1.21e-04 3.64e-12  3.39e-03    13s
+  29   3.41752355e+04  3.29261357e+04  9.52e-05 3.64e-12  2.62e-03    13s
+  30   3.40935721e+04  3.30866582e+04  7.78e-05 3.64e-12  2.11e-03    13s
+  31   3.38973345e+04  3.32354439e+04  3.58e-05 3.64e-12  1.39e-03    13s
+  32   3.37971655e+04  3.35063388e+04  1.61e-05 3.64e-12  6.11e-04    14s
+  33   3.37472407e+04  3.36020855e+04  6.50e-06 3.64e-12  3.05e-04    14s
+  34   3.37313676e+04  3.36484598e+04  3.71e-06 3.64e-12  1.74e-04    14s
+  35   3.37230654e+04  3.36862447e+04  2.27e-06 3.64e-12  7.73e-05    14s
+  36   3.37196605e+04  3.36937059e+04  1.68e-06 3.64e-12  5.45e-05    14s
+  37   3.37161008e+04  3.36973750e+04  1.04e-06 3.64e-12  3.93e-05    14s
+  38   3.37142130e+04  3.37026214e+04  7.34e-07 3.64e-12  2.43e-05    15s
+  39   3.37130300e+04  3.37045249e+04  5.42e-07 3.64e-12  1.79e-05    15s
+  40   3.37112434e+04  3.37067790e+04  2.53e-07 3.64e-12  9.38e-06    15s
+  41   3.37104378e+04  3.37083041e+04  1.21e-07 3.64e-12  4.48e-06    15s
+  42   3.37098323e+04  3.37091643e+04  2.79e-08 3.64e-12  1.40e-06    15s
+  43   3.37097728e+04  3.37093052e+04  1.93e-08 3.64e-12  9.83e-07    15s
+  44   3.37096733e+04  3.37095370e+04  5.33e-09 3.64e-12  2.86e-07    16s
+  45   3.37096480e+04  3.37095825e+04  2.21e-09 3.64e-12  1.38e-07    16s
+  46   3.37096383e+04  3.37096031e+04  1.06e-09 3.64e-12  7.41e-08    16s
+  47   3.37096332e+04  3.37096176e+04  4.78e-10 3.64e-12  3.28e-08    16s
+  48   3.37096290e+04  3.37096281e+04  6.18e-11 5.46e-12  1.88e-09    17s
+  49   3.37096286e+04  3.37096286e+04  3.05e-11 4.55e-12  1.89e-12    17s
+
+Barrier solved model in 49 iterations and 16.79 seconds (9.82 work units)
+Optimal objective 3.37096286e+04
+
+
+Root crossover log...
+
+   16138 DPushes remaining with DInf 0.0000000e+00                17s
+       0 DPushes remaining with DInf 0.0000000e+00                17s
+
+     370 PPushes remaining with PInf 0.0000000e+00                17s
+       0 PPushes remaining with PInf 0.0000000e+00                17s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 3.6142467e-10     17s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   12742    3.3709629e+04   0.000000e+00   0.000000e+00     17s
+
+Solved with barrier
+   12742    3.3709629e+04   0.000000e+00   0.000000e+00     17s
+
+Root relaxation: objective 3.370963e+04, 12742 iterations, 11.64 seconds (5.23 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 33709.6286    0 1331          - 33709.6286      -     -   19s
+H    0     0                    49972.142856 33709.6286  32.5%     -   24s
+H    0     0                    49712.450719 33709.6286  32.2%     -   24s
+     0     0 33719.9453    0 1390 49712.4507 33719.9453  32.2%     -   41s
+H    0     0                    47136.775401 33719.9453  28.5%     -   67s
+     0     0 33727.7776    0 1356 47136.7754 33727.7776  28.4%     -   77s
+     0     0 33730.5384    0 1566 47136.7754 33730.5384  28.4%     -   80s
+     0     0 33743.0819    0 1474 47136.7754 33743.0819  28.4%     -   96s
+     0     0 33760.9341    0 1557 47136.7754 33760.9341  28.4%     -  118s
+     0     0 33764.4320    0 1775 47136.7754 33764.4320  28.4%     -  122s
+     0     0 33764.8638    0 1780 47136.7754 33764.8638  28.4%     -  125s
+     0     0 33765.9129    0 1476 47136.7754 33765.9129  28.4%     -  132s
+     0     0 33766.3217    0 1714 47136.7754 33766.3217  28.4%     -  135s
+     0     0 33768.0499    0 1624 47136.7754 33768.0499  28.4%     -  144s
+     0     0 33768.0610    0 1623 47136.7754 33768.0610  28.4%     -  145s
+     0     0 33768.0882    0 1494 47136.7754 33768.0882  28.4%     -  147s
+     0     0 33768.0882    0 1490 47136.7754 33768.0882  28.4%     -  147s
+     0     0 33859.4867    0 1993 47136.7754 33859.4867  28.2%     -  172s
+H    0     0                    46625.512120 33859.4867  27.4%     -  174s
+     0     0 33862.1721    0 1963 46625.5121 33862.1721  27.4%     -  177s
+     0     0 33869.5680    0 1881 46625.5121 33869.5680  27.4%     -  183s
+     0     0 33873.7898    0 1815 46625.5121 33873.7898  27.3%     -  185s
+     0     0 33874.0111    0 2164 46625.5121 33874.0111  27.3%     -  186s
+     0     0 33874.1950    0 2021 46625.5121 33874.1950  27.3%     -  187s
+     0     0 33874.4281    0 2046 46625.5121 33874.4281  27.3%     -  188s
+     0     0 33874.5754    0 2145 46625.5121 33874.5754  27.3%     -  189s
+     0     0 33874.5924    0 2131 46625.5121 33874.5924  27.3%     -  189s
+     0     0 33935.9197    0 1741 46625.5121 33935.9197  27.2%     -  207s
+     0     0 33938.8862    0 1393 46625.5121 33938.8862  27.2%     -  215s
+     0     0 33938.9386    0 1411 46625.5121 33938.9386  27.2%     -  217s
+     0     0 33939.0063    0 1387 46625.5121 33939.0063  27.2%     -  218s
+     0     0 33939.2804    0 1420 46625.5121 33939.2804  27.2%     -  223s
+     0     0 33939.7120    0 1529 46625.5121 33939.7120  27.2%     -  225s
+     0     0 33940.1118    0 1526 46625.5121 33940.1118  27.2%     -  226s
+     0     0 33940.4781    0 1654 46625.5121 33940.4781  27.2%     -  227s
+     0     0 33940.8728    0 1400 46625.5121 33940.8728  27.2%     -  229s
+     0     0 33941.1956    0 1504 46625.5121 33941.1956  27.2%     -  230s
+     0     0 33941.4281    0 1496 46625.5121 33941.4281  27.2%     -  232s
+     0     0 33941.6294    0 1607 46625.5121 33941.6294  27.2%     -  233s
+     0     0 33941.8768    0 1498 46625.5121 33941.8768  27.2%     -  235s
+     0     0 33942.0853    0 1468 46625.5121 33942.0853  27.2%     -  238s
+     0     0 33942.2389    0 1597 46625.5121 33942.2389  27.2%     -  241s
+     0     0 33942.3364    0 1456 46625.5121 33942.3364  27.2%     -  243s
+     0     0 33942.6407    0 1667 46625.5121 33942.6407  27.2%     -  250s
+     0     0 33942.6419    0 1629 46625.5121 33942.6419  27.2%     -  250s
+     0     0 33956.2882    0 1775 46625.5121 33956.2882  27.2%     -  264s
+     0     0 33960.1338    0 1935 46625.5121 33960.1338  27.2%     -  270s
+     0     0 33960.5569    0 1813 46625.5121 33960.5569  27.2%     -  274s
+     0     0 33960.7826    0 1979 46625.5121 33960.7826  27.2%     -  277s
+     0     0 33960.7826    0 1979 46625.5121 33960.7826  27.2%     -  277s
+     0     0          -    0      46625.5121 33960.7826  27.2%     -  300s
+
+Cutting planes:
+  Learned: 1212
+  MIR: 154
+  StrongCG: 3
+  Zero half: 23
+  RLT: 162
+  Relax-and-lift: 15
+
+Explored 1 nodes (67775 simplex iterations) in 300.03 seconds (234.98 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 46625.5 47136.8 49712.5 49972.1 
+
+Time limit reached
+Best objective 4.662551211950e+04, best bound 3.396078258271e+04, gap 27.1627%
+vehicle_num : 0 time_interval : 0 station : 26 drop_off : 2.0
+vehicle_num : 0 time_interval : 0 station : 49 pick_up : 12.0
+vehicle_num : 0 time_interval : 2 station : 52 drop_off : 1.0
+vehicle_num : 0 time_interval : 2 station : 53 pick_up : 2.0
+vehicle_num : 0 time_interval : 3 station : 38 drop_off : 2.0
+vehicle_num : 0 time_interval : 5 station : 37 drop_off : 2.0
+vehicle_num : 0 time_interval : 7 station : 20 pick_up : 2.0
+vehicle_num : 0 time_interval : 7 station : 23 drop_off : 1.0
+vehicle_num : 0 time_interval : 11 station : 29 drop_off : 2.0
+vehicle_num : 0 time_interval : 12 station : 2 drop_off : 1.0
+vehicle_num : 0 time_interval : 14 station : 32 pick_up : 2.0
+vehicle_num : 0 time_interval : 16 station : 31 drop_off : 2.0
+vehicle_num : 0 time_interval : 19 station : 34 pick_up : 7.0
+vehicle_num : 0 time_interval : 20 station : 28 pick_up : 12.0
+vehicle_num : 0 time_interval : 20 station : 36 drop_off : 10.0
+vehicle_num : 0 time_interval : 21 station : 29 drop_off : 10.0
+vehicle_num : 0 time_interval : 24 station : 10 pick_up : 6.0
+vehicle_num : 0 time_interval : 24 station : 35 drop_off : 3.0
+vehicle_num : 0 time_interval : 27 station : 0 pick_up : 3.0
+vehicle_num : 0 time_interval : 27 station : 18 drop_off : 5.0
+vehicle_num : 0 time_interval : 30 station : 5 drop_off : 1.0
+vehicle_num : 0 time_interval : 31 station : 12 drop_off : 2.0
+vehicle_num : 0 time_interval : 32 station : 3 drop_off : 2.0
+vehicle_num : 0 time_interval : 0 arc i49 to j26
+vehicle_num : 0 time_interval : 0 station : 49 pick_up : 12.0
+vehicle_num : 0 time_interval : 0 station : 26 drop_off : -0.0
+vehicle_num : 0 time_interval : 1 arc i26 to j53
+vehicle_num : 0 time_interval : 2 arc i53 to j52
+vehicle_num : 0 time_interval : 2 station : 53 pick_up : 2.0
+vehicle_num : 0 time_interval : 2 station : 52 drop_off : -0.0
+vehicle_num : 0 time_interval : 3 arc i52 to j38
+vehicle_num : 0 time_interval : 3 station : 38 drop_off : -0.0
+vehicle_num : 0 time_interval : 4 arc i38 to j45
+vehicle_num : 0 time_interval : 5 arc i45 to j37
+vehicle_num : 0 time_interval : 5 station : 37 drop_off : -0.0
+vehicle_num : 0 time_interval : 6 arc i37 to j20
+vehicle_num : 0 time_interval : 7 arc i20 to j23
+vehicle_num : 0 time_interval : 7 station : 20 pick_up : 2.0
+vehicle_num : 0 time_interval : 7 station : 23 drop_off : -0.0
+vehicle_num : 0 time_interval : 8 arc i23 to j36
+vehicle_num : 0 time_interval : 9 arc i36 to j29
+vehicle_num : 0 time_interval : 10 arc i29 to j36
+vehicle_num : 0 time_interval : 11 arc i36 to j29
+vehicle_num : 0 time_interval : 11 station : 29 drop_off : -0.0
+vehicle_num : 0 time_interval : 12 arc i29 to j2
+vehicle_num : 0 time_interval : 12 station : 2 drop_off : -0.0
+vehicle_num : 0 time_interval : 13 arc i2 to j32
+vehicle_num : 0 time_interval : 14 arc i32 to j42
+vehicle_num : 0 time_interval : 14 station : 32 pick_up : 2.0
+vehicle_num : 0 time_interval : 15 arc i42 to j35
+vehicle_num : 0 time_interval : 16 arc i35 to j31
+vehicle_num : 0 time_interval : 16 station : 31 drop_off : -0.0
+vehicle_num : 0 time_interval : 17 arc i31 to j41
+vehicle_num : 0 time_interval : 18 arc i41 to j34
+vehicle_num : 0 time_interval : 19 arc i34 to j28
+vehicle_num : 0 time_interval : 19 station : 34 pick_up : 7.0
+vehicle_num : 0 time_interval : 20 arc i28 to j36
+vehicle_num : 0 time_interval : 20 station : 28 pick_up : 12.0
+vehicle_num : 0 time_interval : 20 station : 36 drop_off : -0.0
+vehicle_num : 0 time_interval : 21 arc i36 to j29
+vehicle_num : 0 time_interval : 21 station : 29 drop_off : -0.0
+vehicle_num : 0 time_interval : 22 arc i29 to j44
+vehicle_num : 0 time_interval : 23 arc i44 to j10
+vehicle_num : 0 time_interval : 24 arc i10 to j35
+vehicle_num : 0 time_interval : 24 station : 10 pick_up : 6.0
+vehicle_num : 0 time_interval : 24 station : 35 drop_off : -0.0
+vehicle_num : 0 time_interval : 25 arc i35 to j46
+vehicle_num : 0 time_interval : 26 arc i46 to j0
+vehicle_num : 0 time_interval : 27 arc i0 to j18
+vehicle_num : 0 time_interval : 27 station : 0 pick_up : 3.0
+vehicle_num : 0 time_interval : 27 station : 18 drop_off : -0.0
+vehicle_num : 0 time_interval : 28 arc i18 to j0
+vehicle_num : 0 time_interval : 29 arc i0 to j19
+vehicle_num : 0 time_interval : 30 arc i19 to j5
+vehicle_num : 0 time_interval : 30 station : 5 drop_off : -0.0
+vehicle_num : 0 time_interval : 31 arc i5 to j12
+vehicle_num : 0 time_interval : 31 station : 12 drop_off : -0.0
+vehicle_num : 0 time_interval : 32 arc i12 to j3
+vehicle_num : 0 time_interval : 32 station : 3 drop_off : -0.0
