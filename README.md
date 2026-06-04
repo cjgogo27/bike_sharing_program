@@ -1,6 +1,6 @@
 # Bike Sharing Rebalancing Program
 
-This repository is the cleaned handover version of the bike-sharing rebalancing project. It keeps the current core progress: demand prediction is connected to vehicle/fleet configuration, and the generated Excel input can be passed into the ALNS path optimization program.
+This repository is about the bike-sharing rebalancing project. 
 
 ## Repository Layout
 
