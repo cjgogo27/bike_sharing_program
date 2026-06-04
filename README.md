@@ -12,8 +12,6 @@ This repository is about the bike-sharing rebalancing project.
 - `docs/`: running guide, code analysis, literature, figures, and project materials.
 - `outputs/`: historical result files kept for comparison.
 
-The folder `D:\共享单车\双层网络绘图` was intentionally excluded from this handover, according to the project transfer request.
-
 ## Quick Start
 
 ```powershell
