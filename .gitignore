@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+myenv/
+newenv/
+.pytest_cache/
+
+# Generated outputs
+outputs/generated_bss_inputs/
+src/path_optimization/Figures/
+src/path_optimization/results/
+src/path_optimization/*.log
+
+# Large raw data archives or full CSV drops
+*.zip
+data/raw/citibike/
+data/raw/**/*.csv
+!data/raw/citibike_sample/202502-citibike-tripdata_3.csv
+
+# Local editor/system files
+.vscode/
+.DS_Store
+Thumbs.db

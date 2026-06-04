@@ -1,0 +1,11 @@
+*.csv -text
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.doc binary
+*.docx binary
+*.pptx binary
+*.zip binary
